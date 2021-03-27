@@ -1,0 +1,48 @@
+body {
+    background-color: orange;
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    padding: 80px;
+    transform: translate(-50%, -50%);
+    background-color: #091028;
+    box-shadow: 10px 10px 20px #00000080;
+}
+
+.login h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.login input {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    color: #fff;
+    background-color: #091028;
+}
+
+.login input[type="text"], input[type="password"] {
+    border: 2px solid #3f5c85;    
+}
+
+.login input[type="text"]:focus, input[type="password"]:focus {
+    width: 215px;
+    border: 2px solid green;
+    transition: 2s;
+}
+
+.login input[type="submit"] {
+    border: 2px solid green;
+}
+
+.login input[type="submit"]:hover {
+    cursor: pointer;
+}
+
