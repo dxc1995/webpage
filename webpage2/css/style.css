@@ -1,0 +1,76 @@
+body {
+    background-image: url(../image/bg.jpeg);
+    background-size: cover;
+}
+
+.main-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    box-shadow: 0 0 10px #00000070;
+}
+
+.top-section {
+    background-color: #5b60c4;
+    padding: 40px 0;
+    color: #fff;
+}
+
+.top-section img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.top-section .name {
+    font-size: 20px;
+}
+
+.top-section p {
+    margin: 5px 0;
+}
+
+.top-section .email, .mobile {
+    font-size: 10px;
+}
+
+.middle-section {
+    position: relative;
+}
+
+.social {
+    position: absolute;
+    top: -22px;
+    width: 100%;
+}
+
+.middle-section i {
+    width: 45px;
+    height: 45px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 45px;
+    border-radius: 50%;
+    margin: 0 20px;
+    background-color: #303d4e;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.bottom-section span {
+    display: block;
+}
+
+.bottom-section .border {
+    width: 1px;
+    height: 40px;
+    background-color: #ccc;
+}
+
